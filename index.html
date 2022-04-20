@@ -1,0 +1,344 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="assets/css/styles.css" />
+
+    <link
+      rel="apple-touch-icon"
+      sizes="180x180"
+      href="assets/icons/apple-touch-icon.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="assets/icons/favicon-32x32.png"
+    />
+
+    <!-- Animate CSS CDN -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+    />
+    <title>Dominik Kunicki | Web Developer</title>
+  </head>
+
+  <body>
+    <nav>
+      <h1>Dominik Kunicki</h1>
+      <ul class="navigation">
+        <li><a href="#about" class="nav-link">About</a></li>
+        <li><a href="#skills" class="nav-link">Skills</a></li>
+        <li><a href="#projects" class="nav-link">Projects</a></li>
+        <li><a href="#contact" class="nav-link">Contact</a></li>
+      </ul>
+      <button class="burger-menu" id="burger-menu">
+        <ion-icon class="bars" name="menu-outline"></ion-icon>
+      </button>
+    </nav>
+
+    <section class="hero" id="about">
+      <img
+        src="assets/images/wfh_2.svg"
+        alt="jane-doe"
+        loading="lazy"
+        class="hero-img"
+      />
+      <div class="bio animate__animated animate__shakeX">
+        <h2 class="bio-title">About Me</h2>
+        <p class="bio-text">
+          I'm a young self-taught programmer who is interested in JavaScript and
+          React framework, I don't have any work experience with programming,
+          however, I am highly motivated about acquiring new skills and
+          polishing them.
+        </p>
+      </div>
+    </section>
+
+    <section class="more-about">
+      <h2>More About Me</h2>
+      <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis
+        nesciunt excepturi quos obcaecati incidunt voluptatem ipsam sunt ipsum,
+        autem deleniti cupiditate molestias quis unde quae totam porro dicta
+        iure animi inventore, veniam hic! Omnis nulla, delectus a voluptatibus
+      </p>
+      <p>
+        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Consequuntur
+        nostrum dolor minus, libero delectus praesentium perferendis
+      </p>
+      <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero,
+        consequuntur labore? Ea totam voluptas amet!
+      </p>
+    </section>
+
+    <section class="skills" id="skills">
+      <h2 class="skill-header">My Top Skills</h2>
+
+      <div class="skills-wrapper">
+        <div class="first-set animate__animated animate__pulse">
+          <img
+            src="assets/icons/icons8-html-5.svg"
+            alt="html"
+            loading="lazy"
+            class="icon icon-card"
+          />
+          <img
+            src="assets/icons/icons8-css3.svg"
+            alt="css"
+            loading="lazy"
+            class="icon icon-card"
+          />
+          <img
+            src="assets/icons/icons8-javascript.svg"
+            alt="js"
+            loading="lazy"
+            class="icon icon-card"
+          />
+        </div>
+        <div class="second-set animate__animated animate__pulse">
+          <img
+            src="assets/icons/icons8-bootstrap.svg"
+            alt="bootstrap"
+            loading="lazy"
+            class="icon icon-card"
+          />
+          <img
+            src="assets/icons/icons8-react-native.svg"
+            alt="react"
+            loading="lazy"
+            class="icon icon-card"
+          />
+          <img
+            src="assets/icons/icons8-git.svg"
+            alt="git"
+            loading="lazy"
+            class="icon icon-card"
+          />
+        </div>
+      </div>
+    </section>
+
+    <section class="projects" id="projects">
+      <h2 class="projects-title">Some of my recent projects</h2>
+      <div class="projects-container">
+        <div class="project-container project-card">
+          <img
+            src="assets/images/waldo.png"
+            alt="waldo"
+            loading="lazy"
+            class="project-pic"
+          />
+          <h3 class="project-title">Find Waldo</h3>
+          <p class="project-details">
+            Classic Find-Waldo game, the objective is to find Waldo, Wilma and
+            the Wizard.
+          </p>
+          <a
+            href="https://kaozxc.github.io/react-waldo/"
+            target="_blank"
+            class="project-link"
+            >Check it Out</a
+          >
+        </div>
+        <div class="project-container project-card">
+          <img
+            src="assets/images/furniture_store.png"
+            alt="furniture_store"
+            loading="lazy"
+            class="project-pic"
+          />
+          <h3 class="project-title">Furniture Store</h3>
+          <p class="project-details">
+            Example Furniture Store with working cart. Used Contentful and
+            Netlify.
+          </p>
+          <a
+            href="https://kaozxc-store.netlify.app/"
+            target="_blank"
+            class="project-link"
+            >Check it Out</a
+          >
+        </div>
+        <div class="project-container project-card">
+          <img
+            src="assets/images/netflix.png"
+            alt="netflix-clone"
+            loading="lazy"
+            class="project-pic"
+          />
+          <h3 class="project-title">Netflix Clone</h3>
+          <p class="project-details">
+            Netflix clone made in React using FireBase
+          </p>
+          <a
+            href="https://kaozxc.github.io/AutoComplete/"
+            target="_blank"
+            class="project-link"
+            >Check it Out</a
+          >
+        </div>
+        <div class="project-container project-card">
+          <img
+            src="assets/images/AC.png"
+            alt="AutoComplete Form"
+            loading="lazy"
+            class="project-pic"
+          />
+          <h3 class="project-title">AutoComplete Form</h3>
+          <p class="project-details">
+            AutoComplete form written in React using Redux as a state management
+          </p>
+          <a
+            href="https://kaozxc.github.io/AutoComplete/"
+            target="_blank"
+            class="project-link"
+            >Check it Out</a
+          >
+        </div>
+        <div class="project-container project-card">
+          <img
+            src="assets/images/memorygame.png"
+            alt="memorygame"
+            loading="lazy"
+            class="project-pic"
+          />
+          <h3 class="project-title">Memory Game</h3>
+          <p class="project-details">Rick and Morty themed Memory Game</p>
+          <a
+            href="https://kaozxc.github.io/react-memory-game/"
+            target="_blank"
+            class="project-link"
+            >Check it Out</a
+          >
+        </div>
+        <div class="project-container project-card">
+          <img
+            src="assets/images/spaceinvaders.png"
+            alt="spaceinvaders"
+            loading="lazy"
+            class="project-pic"
+          />
+          <h3 class="project-title">Space Invaders</h3>
+          <p class="project-details">Basic Game Space Invaders</p>
+          <a
+            href="https://kaozxc.github.io/js-space-invaders/"
+            target="_blank"
+            class="project-link"
+            >Check it Out</a
+          >
+        </div>
+      </div>
+    </section>
+
+    <section class="contact" id="contact">
+      <h2>Get in touch with me</h2>
+      <div class="contact-form-container">
+        <div class="contact-form">
+          <form action="https://formspree.io/f/xgednqzd" method="POST">
+            <div class="form-control">
+              <label for="name">Name</label>
+              <input
+                type="text"
+                id="name"
+                name="sender-name"
+                placeholder="Enter your name"
+                class="input-field"
+                required
+              />
+            </div>
+            <div class="form-control">
+              <label for="email">Email</label>
+              <input
+                type="email"
+                id="email"
+                name="sender-email"
+                placeholder="Enter your email"
+                class="input-field"
+                required
+              />
+            </div>
+            <div class="form-control">
+              <label for="message">Message</label>
+              <textarea
+                name="message"
+                id="message"
+                cols="60"
+                rows="10"
+                placeholder="Enter your message"
+                class="input-field"
+                required
+              ></textarea>
+              <input
+                type="submit"
+                value="Submit"
+                id="submit-btn"
+                class="submit-btn"
+              />
+            </div>
+          </form>
+        </div>
+      </div>
+    </section>
+
+    <div class="socials">
+      <a href="#" target="_blank"
+        ><img
+          src="assets/icons/icons8-twitter-circled.gif"
+          alt="twitter"
+          loading="lazy"
+          class="socicon"
+      /></a>
+      <a href="#" target="_blank"
+        ><img
+          src="assets/icons/icons8-instagram.gif"
+          alt="instagram"
+          loading="lazy"
+          class="socicon"
+      /></a>
+      <a href="https://www.linkedin.com/in/dominik-kunicki/" target="_blank"
+        ><img
+          src="assets/icons/icons8-linkedin-circled.gif"
+          alt="linkedin"
+          loading="lazy"
+          class="socicon"
+      /></a>
+      <a href="https://github.com/Kaozxc" target="_blank">
+        <img
+          src="assets/icons/icons8-github.gif"
+          alt="github"
+          class="socicon"
+        />
+      </a>
+    </div>
+
+    <footer>
+      <p class="copy">&copy; Copyright 2022</p>
+      <p class="copy">
+        Built by
+        <a href="https://github.com/Kaozxc" target="_blank">Dominik Kunicki</a>
+      </p>
+    </footer>
+
+    <i class="scroll-up" id="scroll-up">
+      <img
+        src="assets/icons/icons8-upward-arrow.gif"
+        class="socicon up-arrow"
+        alt="scroll-up"
+      />
+    </i>
+    <script src="assets/js/app.js"></script>
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"
+    ></script>
+  </body>
+</html>
